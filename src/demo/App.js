@@ -8,12 +8,8 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            value: ' 100m'
+            value: '100m'
         };
-    }
-
-    setProps(newProps) {
-        this.setState(newProps);
     }
 
     render() {
