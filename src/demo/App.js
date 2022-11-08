@@ -8,9 +8,8 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            value: ''
+            value: ' 100m'
         };
-        this.setProps = this.setProps.bind(this);
     }
 
     setProps(newProps) {
@@ -21,7 +20,6 @@ class App extends Component {
         return (
             <div>
                 <Mapscale
-                    setProps={this.setProps}
                     {...this.state}
                 />
             </div>
