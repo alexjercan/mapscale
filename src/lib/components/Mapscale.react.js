@@ -8,9 +8,17 @@ export default class Mapscale extends Component {
     render() {
         const {id, value} = this.props;
 
+        const style = {
+            "border":"1px",
+            "border-color": "grey",
+            "border-style": "none solid solid solid",
+            "width": "100px",
+            "text-align": "center"
+        }
+
         return (
-            <div id={id}>
-                Scale: {value};
+            <div id={id} style={style}>
+                Scale: {value}
          
             </div>
         );
