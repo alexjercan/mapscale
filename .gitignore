@@ -288,11 +288,8 @@ R/
 deps/
 inst/
 man/
-mapscale/Mapscale.py
-mapscale/mapscale.min.js
-mapscale/mapscale.min.js.map
-mapscale/metadata.json
-mapscale/package-info.json
+mapscale/*
+!mapscale/__init__.py
 package-lock.json
 src/Mapscale.jl
 src/jl/
