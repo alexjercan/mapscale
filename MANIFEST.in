@@ -1,0 +1,11 @@
+include mapscale/mapscale.min.js
+include mapscale/mapscale.min.js.map
+include mapscale/async-*.js
+include mapscale/async-*.js.map
+include mapscale/*-shared.js
+include mapscale/*-shared.js.map
+include mapscale/metadata.json
+include mapscale/package-info.json
+include README.md
+include LICENSE
+include package.json
