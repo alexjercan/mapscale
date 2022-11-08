@@ -278,3 +278,21 @@ GitHub.sublime-settings
 # Julia manifest file names
 Manifest.toml
 JuliaManifest.toml
+
+# Junk
+.Rbuildignore
+DESCRIPTION
+NAMESPACE
+Project.toml
+R/
+deps/
+inst/
+man/
+mapscale/Mapscale.py
+mapscale/mapscale.min.js
+mapscale/mapscale.min.js.map
+mapscale/metadata.json
+mapscale/package-info.json
+package-lock.json
+src/Mapscale.jl
+src/jl/
