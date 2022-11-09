@@ -6,26 +6,27 @@ import PropTypes from 'prop-types';
  */
 export default class Mapscale extends Component {
     render() {
-        const {id, value} = this.props;
+        const {id, value, width} = this.props;
 
         const style = {
             "border":"1px",
             "border-color": "grey",
             "border-style": "none solid solid solid",
-            "width": "100px",
+            "width": `${width}px`,
             "text-align": "center"
         }
 
         return (
             <div id={id} style={style}>
                 Scale: {value}
-         
             </div>
         );
     }
 }
 
-Mapscale.defaultProps = {};
+Mapscale.defaultProps = {
+    width: 100
+};
 
 Mapscale.propTypes = {
     /**
@@ -37,5 +38,10 @@ Mapscale.propTypes = {
      * The value displayed in the input.
      */
     value: PropTypes.string,
+
+    /**
+     * The width of the scale component.
+     */
+     width: PropTypes.number,
 
 };

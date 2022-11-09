@@ -7,6 +7,7 @@ app.layout = html.Div([
     mapscale.Mapscale(
         id='mapScaleId',
         value='100m',
+        width= 200
     )
 ])
 
